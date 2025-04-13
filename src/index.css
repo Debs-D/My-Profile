@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (min-width :765px) {
+  .fixed{
+    position: unset;
+    top: unset;
+    right: unset;
+    height: unset;
+    width: unset;
+  }
+}
+
+
+.bg-gradient-circle {
+  background: linear-gradient(rgb(137, 137, 255), rgb(247, 160, 160));
+}
+
+
+
+
+
+
+.form-container input:not(:last-child),
+.form-container textarea{
+  width: 90%;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: transparent;
+  outline: none;
+  display: block
+}
+

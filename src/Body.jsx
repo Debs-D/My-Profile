@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { CiLink } from "react-icons/ci";
-import { FaGitAlt, FaHtml5, FaNodeJs } from "react-icons/fa";
+import { FaGitAlt, FaHtml5 } from "react-icons/fa";
 import {
   IoCodeSlashOutline,
   IoLogoCss3,
@@ -28,11 +28,9 @@ function Body() {
     <section id="home">
       <div className="pt-8 flex  justify-center gap-8 md:justify-between items-center flex-wrap px-4">
         <h1 className="text-5xl font-extrabold left-14">
-          Hello👋,
-          <br />
-          My name is <br />
+          Hello👋, I’m <br />
           <span className="bg-gradient-to-r from-blue-500 to-red-300 bg-clip-text text-transparent">
-            Odekunle Ayishat{" "}
+            Odekunle Lolade{" "}
           </span>
           <br />I build things for web
         </h1>
@@ -155,18 +153,6 @@ function Body() {
           </SwiperSlide>
           <SwiperSlide>
             <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
-              <div className="text-8xl text-green-600">
-                <FaNodeJs />
-              </div>
-              <div className="text-center">
-                <h3 className="text-2xl font-semibold">NodeJs</h3>
-                <p>2 years experience</p>
-              </div>
-            </article>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
               <div className="text-8xl text-orange-600">
                 <FaGitAlt />
               </div>
@@ -193,106 +179,69 @@ function Body() {
           <article className="items-center bg-white shadow-xl rounded-b-lg">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="/images/invoice.JPG"
+                src="/public/images/advice.jpg"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
             </div>
             <div className="px-[18px] bg-white rounded-b-lg">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Invoice App
+                Advice App
               </h2>
               <p className="text-base mb-[12px]">
-                This is an Invoice App project where authenticated user can
-                create,edit and delete an invoice, only user granted to be an
-                admin can mark invoice as paid
-              </p>
-              <p className="text-[#666666] text-sm mb-[21px]">
-                Tech stack : React, Tailwind, TypeScript, Node, Express, MongoDb
-              </p>
-              <div className="flex justify-center gap-x-[48px] items-center mb-2">
-                <a
-                  href="https://omoola-invoice.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-500 font-bold text-2xl"
-                >
-                  <CiLink />
-                </a>
-                <a
-                  href="https://github.com/Omo-ola/Invoice-Project"
-                  target="_blank"
-                  className="hover:text-blue-500 font-bold text-2xl"
-                  rel="noopener noreferrer"
-                >
-                  <IoCodeSlashOutline />
-                </a>
-              </div>
-            </div>
-          </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
-            <div className="h-[240px] pb-[17px]">
-              <img
-                src="/images/rMovie.PNG"
-                alt="Image of website"
-                className="w-full h-full rounded-t-lg object-cover"
-              />
-            </div>
-            <div className="px-[18px] bg-white rounded-b-lg">
-              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Movie Search
-              </h2>
-              <p className="text-base mb-[12px]">
-                This is a challenge given,I made use of an API to get almost all
-                movies and describe a little about each movie.I am looking
-                forward to add more functionality to it if there is suggestion
-              </p>
-              <p className="text-[#666666] text-sm mb-[21px]">
-                Tech stack : React ,Tailwind Css
-              </p>
-              <div className="flex justify-center gap-[48px] items-center mb-2">
-                <a
-                  href="https://omoola-movie-search.netlify.app/"
-                  target="_blank"
-                  className="hover:text-blue-500 font-bold text-2xl"
-                  rel="noopener noreferrer"
-                >
-                  <CiLink />
-                </a>
-                <a
-                  href="https://github.com/Omo-ola/React-movie-search"
-                  target="_blank"
-                  className="hover:text-blue-500 font-bold text-2xl"
-                  rel="noopener noreferrer"
-                >
-                  <IoCodeSlashOutline />
-                </a>
-              </div>
-            </div>
-          </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
-            <div className="h-[240px] pb-[17px]">
-              <img
-                src="/images/Todo.PNG"
-                alt="Image of website"
-                className="w-full h-full rounded-t-lg object-cover"
-              />
-            </div>
-            <div className="px-[18px] bg-white rounded-b-lg">
-              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                A Todo list
-              </h2>
-              <p className="text-base mb-[12px]">
-                A project that work as a simple to do App,This project combines
-                simplicity with functionality, offering a seamless user
-                experience enhanced by robust local storage capabilities
+                My advice-generating website offers personalized tips and
+                insights to guide users seeking motivation, clarity, or
+                direction effectively . With a simple click, users can receive
+                fresh advice designed to inspire action and encourage positive
+                thinking.
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : HTML, CSS , JavaScript
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://to-dolist-psi.vercel.app/"
+                  href="https://advice-generator-project-three.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                >
+                  <CiLink />
+                </a>
+                <a
+                  href="https://github.com/Debs-D/advice-generator-project.git"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <IoCodeSlashOutline />
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="items-center bg-white shadow-xl rounded-b-lg">
+            <div className="h-[240px] pb-[17px]">
+              <img
+                src="/public/images/MovieBox-home.jpg"
+                alt="Image of website"
+                className="w-full h-full rounded-t-lg object-cover"
+              />
+            </div>
+            <div className="px-[18px] bg-white rounded-b-lg">
+              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
+                Movie Box
+              </h2>
+              <p className="text-base mb-[12px]">
+                My interactive movie box website makes discovering and enjoying
+                films fun and easy.,I made use of an API to get almost all
+                movies and describe a little about each movie.I am looking
+                forward to add more functionality to it if there is suggestion
+              </p>
+              <p className="text-[#666666] text-sm mb-[21px]">
+                Tech stack : HTML, CSS , JavaScript
+              </p>
+              <div className="flex justify-center gap-[48px] items-center mb-2">
+                <a
+                  href="https://moviebox-blue.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -300,7 +249,48 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Omo-ola/To-dolist"
+                  href="https://github.com/Debs-D/moviebox.git"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <IoCodeSlashOutline />
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="items-center bg-white shadow-xl rounded-b-lg">
+            <div className="h-[240px] pb-[17px]">
+              <img
+                src="https://pbs.twimg.com/profile_images/1795453434134429697/-irGId6J_400x400.jpg"
+                alt="Image of website"
+                className="w-full h-full rounded-t-lg object-cover"
+              />
+            </div>
+            <div className="px-[18px] bg-white rounded-b-lg">
+              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
+                Ufone Website{" "}
+              </h2>
+              <p className="text-base mb-[12px]">
+                Ufone is an online platform designed to empower students through
+                STEM education. The website offers a curated selection of
+                learning materials, interactive courses, and STEM kits available
+                for purchase, making learning hands-on and engaging.
+              </p>
+              <p className="text-[#666666] text-sm mb-[21px]">
+                Tech stack : React, Next.js, Typescript, Tailwind
+              </p>
+              <div className="flex justify-center gap-x-[48px] items-center mb-2">
+                <a
+                  href="https://store-ufuon-ten.vercel.app/"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <CiLink />
+                </a>
+                <a
+                  href="https://github.com/Debs-D/store-ufuon.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -332,7 +322,7 @@ function Body() {
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://pig-game-one-beta.vercel.app/"
+                  href="https://pig-game-amber-two.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -340,7 +330,7 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Omo-ola/Pig-Game"
+                  href="https://github.com/Debs-D/Pig-Game.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -353,27 +343,28 @@ function Body() {
           <article className="items-center bg-white shadow-xl rounded-b-lg">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="/images/mentor-1.JPG"
+                src="https://content.tinytap.it/9C3C5B37-4CCF-4334-B70D-389EB5153F56/unzipped%2Fphoto1%2Fphoto1phone.jpg"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
             </div>
             <div className="px-[18px] bg-white rounded-b-lg">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Rest Country API
+                Color Guessing Game
               </h2>
               <p className="text-base mb-[12px]">
-                Embark on the challenge with my innovative solution for Frontend
-                Mentor! I`&apos;ve crafted a web app that meets the requirements
-                and expectations by fetching data to provide users with a
-                comprehensive experience
+                The Color Guessing Game is a fun web game where players try to
+                guess the correct color from a few options. Each round shows a
+                color box, and you must click the matching color button. Ifx
+                you’re right, you score a point. If you’re wrong, your score
+                resets.
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : React, Tailwind
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://frontend-mentor-task-country.vercel.app/"
+                  href="https://color-code-lovat.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -381,7 +372,7 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Omo-ola/frontend-mentor-task-country"
+                  href="https://github.com/Debs-D/colorCode.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -394,26 +385,27 @@ function Body() {
           <article className="items-center bg-white shadow-xl rounded-b-lg">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="/images/Edukate.PNG"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxaeYkdPUzEGc8_3-HSqHYws3nRHEP_XiiQ&s"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
             </div>
             <div className="px-[18px] bg-white rounded-b-lg flex flex-col justify-between">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                EduKate
+                Jumia Clone
               </h2>
               <p className="text-base mb-[12px]">
-                A responsive static page that can be used for Educational
-                purposes, the static website boasts a clean and modern design,
-                meticulously crafted to provide an optimal user experience.
+                A responsive static page that features a dynamic and engaging
+                layout , the static website boasts a clean and modern e-commerce
+                design, meticulously crafted to provide an optimal user
+                experience.
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : HTML ,CSS
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://edu-kate.vercel.app/"
+                  href="https://jumia-clone-sage.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -421,7 +413,132 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Omo-ola/EduKate"
+                  href="https://github.com/Debs-D/jumiaClone.git"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <IoCodeSlashOutline />
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="items-center bg-white shadow-xl rounded-b-lg">
+            <div className="h-[240px] pb-[17px]">
+              <img
+                src="https://content.tinytap.it/9C3C5B37-4CCF-4334-B70D-389EB5153F56/unzipped%2Fphoto1%2Fphoto1phone.jpg"
+                alt="Image of website"
+                className="w-full h-full rounded-t-lg object-cover"
+              />
+            </div>
+            <div className="px-[18px] bg-white rounded-b-lg">
+              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
+                Color Guessing Game
+              </h2>
+              <p className="text-base mb-[12px]">
+                The Color Guessing Game is a fun web game where players try to
+                guess the correct color from a few options. Each round shows a
+                color box, and you must click the matching color button. Ifx
+                you’re right, you score a point. If you’re wrong, your score
+                resets.
+              </p>
+              <p className="text-[#666666] text-sm mb-[21px]">
+                Tech stack : React, Tailwind
+              </p>
+              <div className="flex justify-center gap-x-[48px] items-center mb-2">
+                <a
+                  href="https://color-code-lovat.vercel.app/"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <CiLink />
+                </a>
+                <a
+                  href="https://github.com/Debs-D/colorCode.git"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <IoCodeSlashOutline />
+                </a>
+              </div>
+            </div>
+          </article>
+          <article className="items-center bg-white shadow-xl rounded-b-lg">
+            <div className="h-[240px] pb-[17px]">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxaeYkdPUzEGc8_3-HSqHYws3nRHEP_XiiQ&s"
+                alt="Image of website"
+                className="w-full h-full rounded-t-lg object-cover"
+              />
+            </div>
+            <div className="px-[18px] bg-white rounded-b-lg flex flex-col justify-between">
+              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
+                Jumia Clone
+              </h2>
+              <p className="text-base mb-[12px]">
+                A responsive static page that features a dynamic and engaging
+                layout , the static website boasts a clean and modern e-commerce
+                design, meticulously crafted to provide an optimal user
+                experience.
+              </p>
+              <p className="text-[#666666] text-sm mb-[21px]">
+                Tech stack : HTML ,CSS
+              </p>
+              <div className="flex justify-center gap-x-[48px] items-center mb-2">
+                <a
+                  href="https://jumia-clone-sage.vercel.app/"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <CiLink />
+                </a>
+                <a
+                  href="https://github.com/Debs-D/jumiaClone.git"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <IoCodeSlashOutline />
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="items-center bg-white shadow-xl rounded-b-lg">
+            <div className="h-[240px] pb-[17px]">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxaeYkdPUzEGc8_3-HSqHYws3nRHEP_XiiQ&s"
+                alt="Image of website"
+                className="w-full h-full rounded-t-lg object-cover"
+              />
+            </div>
+            <div className="px-[18px] bg-white rounded-b-lg flex flex-col justify-between">
+              <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
+                Jumia Clone
+              </h2>
+              <p className="text-base mb-[12px]">
+                A responsive static page that features a dynamic and engaging
+                layout , the static website boasts a clean and modern e-commerce
+                design, meticulously crafted to provide an optimal user
+                experience.
+              </p>
+              <p className="text-[#666666] text-sm mb-[21px]">
+                Tech stack : HTML ,CSS
+              </p>
+              <div className="flex justify-center gap-x-[48px] items-center mb-2">
+                <a
+                  href="https://jumia-clone-sage.vercel.app/"
+                  target="_blank"
+                  className="hover:text-blue-500 font-bold text-2xl"
+                  rel="noopener noreferrer"
+                >
+                  <CiLink />
+                </a>
+                <a
+                  href="https://github.com/Debs-D/jumiaClone.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"

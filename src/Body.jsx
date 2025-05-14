@@ -11,7 +11,7 @@ import {
   IoLogoJavascript,
   IoLogoReact,
 } from "react-icons/io5";
-import { SiMongodb, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 function Body() {
@@ -28,7 +28,7 @@ function Body() {
     <section id="home">
       <div className="pt-8 flex  justify-center gap-8 md:justify-between items-center flex-wrap px-4">
         <h1 className="text-5xl font-extrabold left-14">
-          Hi👋,
+          Hello👋,
           <br />
           My name is <br />
           <span className="bg-gradient-to-r from-blue-500 to-red-300 bg-clip-text text-transparent">
@@ -38,7 +38,7 @@ function Body() {
         </h1>
         <div className="h-[349px] w-[349px] rounded-full overflow-hidden bg-blue-600 bg-gradient-circle">
           <img
-            src="images/Imgs.jpg"
+            src="../public/images/IMG_1640 (1).jpg"
             className="w-[100%] h-[100%] rounded-full object-cover p-2"
             alt=""
           />
@@ -82,7 +82,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">Html</h3>
-                <p>4 years experience</p>
+                <p>2.5 years experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -93,7 +93,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">CSS</h3>
-                <p>4 years experience</p>
+                <p>2 years experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -104,7 +104,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">Javascript</h3>
-                <p>3.5 years experience</p>
+                <p>1.5 years experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -116,7 +116,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">React</h3>
-                <p>2 years experience</p>
+                <p>1 years experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -127,7 +127,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">Next</h3>
-                <p>2 month experience</p>
+                <p>3 month experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -138,7 +138,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">Tailwind</h3>
-                <p>1 year experience</p>
+                <p>7 month experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -149,7 +149,7 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">TypeScript</h3>
-                <p>1 year experience</p>
+                <p>2 month experience</p>
               </div>
             </article>
           </SwiperSlide>
@@ -164,17 +164,7 @@ function Body() {
               </div>
             </article>
           </SwiperSlide>
-          <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
-              <div className="text-8xl text-green-600">
-                <SiMongodb />
-              </div>
-              <div className="text-center">
-                <h3 className="text-2xl font-semibold">MongoDb</h3>
-                <p>2 years experience</p>
-              </div>
-            </article>
-          </SwiperSlide>
+
           <SwiperSlide>
             <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
               <div className="text-8xl text-orange-600">
@@ -182,21 +172,6 @@ function Body() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-semibold">Git & Github</h3>
-                <p>2 years experience</p>
-              </div>
-            </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
-              <div className="text-8xl text-orange-600">
-                <img
-                  className="h-[100px] w-[100px]"
-                  src="/images/Express.png"
-                  alt="Js image"
-                />
-              </div>
-              <div className="text-center">
-                <h3 className="text-2xl font-semibold">Express</h3>
                 <p>2 years experience</p>
               </div>
             </article>
@@ -513,9 +488,8 @@ function Body() {
 
         <section className="flex justify-between mt-6 mb-8 ">
           <div className="flex justify-center items-center">
-            <a href="https://www.facebook.com/abdulrahmonolasunkanmi.olayiwola/"></a>
-            <a href="https://www.linkedin.com/in/olayiwola-abdulramon-37609921a/"></a>
-            <a href="https://twitter.com/Omoola58079529"></a>
+            <a href="https://www.linkedin.com/in/ayishat-odekunle-a7146527a/"></a>
+            <a href="https://x.com/Doa_debbie"></a>
             <a href="#"></a>
           </div>
           <div className="text-sm">

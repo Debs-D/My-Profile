@@ -54,7 +54,7 @@ function Nav() {
         </ul>
         <div className="flex md:justify-between items-center text-sm :gap-3 ">
           <a
-            href="https://github.com/Omo-ola"
+            href="https://github.com/Debs-D"
             target="_blank"
             rel="noopener noreferrer"
             className="block md:inline-block p-2 h-8 rounded-md "
@@ -69,7 +69,7 @@ function Nav() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/olayiwola-abdulramon-37609921a"
+            href="https://www.linkedin.com/in/ayishat-odekunle-a7146527a/"
             target="_blank"
             rel="noopener noreferrer"
             className="block md:inline-block p-2 h-8 rounded-md"
@@ -84,7 +84,7 @@ function Nav() {
             </svg>
           </a>
           <a
-            href="https://twitter.com/Omoola58079529"
+            href="https://x.com/Doa_debbie"
             target="_blank"
             rel="noopener noreferrer"
             className="block md:inline-block p-2 h-8 rounded-md"

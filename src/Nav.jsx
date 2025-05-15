@@ -18,7 +18,7 @@ function Nav() {
     <header className="flex items-center justify-between px-6 md:px-4 py-4 bg-white">
       <div className="flex items-center justify-between gap-4">
         <div className="w-32 text-3xl font-semibold bg-gradient-to-r from-blue-500 to-red-300 bg-clip-text text-transparent">
-          Omoola.
+          Lolaa..
         </div>
       </div>
 

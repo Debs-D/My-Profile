@@ -25,18 +25,18 @@ function Body() {
   }
 
   return (
-    <section id="home">
+    <section id="home ">
       <div className="pt-8 flex  justify-center gap-8 md:justify-between items-center flex-wrap px-4">
         <h1 className="text-5xl font-extrabold left-14">
           Hello👋, I’m <br />
-          <span className="bg-gradient-to-r from-blue-500 to-red-300 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-purple-600 to-orange-400 bg-clip-text text-transparent">
             Odekunle Lolade{" "}
           </span>
           <br />I build things for web
         </h1>
         <div className="h-[349px] w-[349px] rounded-full overflow-hidden bg-blue-600 bg-gradient-circle">
           <img
-            src="../public/images/IMG_1640 (1).jpg"
+            src="/images/IMG_1640 (1).jpg"
             className="w-[100%] h-[100%] rounded-full object-cover p-2"
             alt=""
           />
@@ -74,7 +74,7 @@ function Body() {
           className="px-2"
         >
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-orange-600">
                 <FaHtml5 />
               </div>
@@ -85,7 +85,7 @@ function Body() {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-blue-600">
                 <IoLogoCss3 />
               </div>
@@ -96,7 +96,7 @@ function Body() {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-yellow-400">
                 <IoLogoJavascript />
               </div>
@@ -108,7 +108,7 @@ function Body() {
           </SwiperSlide>
 
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-blue-300">
                 <IoLogoReact />
               </div>
@@ -119,7 +119,7 @@ function Body() {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-black">
                 <TbBrandNextjs />
               </div>
@@ -130,7 +130,7 @@ function Body() {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-blue-400">
                 <SiTailwindcss />
               </div>
@@ -141,7 +141,7 @@ function Body() {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-blue-500">
                 <SiTypescript />
               </div>
@@ -152,7 +152,7 @@ function Body() {
             </article>
           </SwiperSlide>
           <SwiperSlide>
-            <article className="flex gap-2 items-center p-2 rounded-sm border border-blue-300 shadow-sm">
+            <article className="flex gap-2 items-center p-2 rounded-md border border-teal-600 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="text-8xl text-orange-600">
                 <FaGitAlt />
               </div>
@@ -176,10 +176,10 @@ function Body() {
         </h3>
 
         <main className="grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 justify-center gap-6 mb-8 px-2 md:px-0">
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="/public/images/advice.jpg"
+                src="/images/advice.jpg"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
@@ -218,10 +218,10 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="/public/images/MovieBox-home.jpg"
+                src="/images/MovieBox-home.jpg"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
@@ -259,7 +259,7 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
                 src="https://pbs.twimg.com/profile_images/1795453434134429697/-irGId6J_400x400.jpg"
@@ -269,7 +269,7 @@ function Body() {
             </div>
             <div className="px-[18px] bg-white rounded-b-lg">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Ufone Website{" "}
+                Ufone Store{" "}
               </h2>
               <p className="text-base mb-[12px]">
                 Ufone is an online platform designed to empower students through
@@ -300,7 +300,7 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
                 src="/images/pig-game.PNG"
@@ -340,7 +340,7 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
                 src="https://content.tinytap.it/9C3C5B37-4CCF-4334-B70D-389EB5153F56/unzipped%2Fphoto1%2Fphoto1phone.jpg"
@@ -355,9 +355,7 @@ function Body() {
               <p className="text-base mb-[12px]">
                 The Color Guessing Game is a fun web game where players try to
                 guess the correct color from a few options. Each round shows a
-                color box, and you must click the matching color button. Ifx
-                you’re right, you score a point. If you’re wrong, your score
-                resets.
+                color box, and you must click the matching color button.
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : React, Tailwind
@@ -382,7 +380,7 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxaeYkdPUzEGc8_3-HSqHYws3nRHEP_XiiQ&s"
@@ -423,31 +421,30 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="https://content.tinytap.it/9C3C5B37-4CCF-4334-B70D-389EB5153F56/unzipped%2Fphoto1%2Fphoto1phone.jpg"
+                src="https://ionic.io/blog/wp-content/uploads/2024/04/vite-feature-image.png"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
             </div>
             <div className="px-[18px] bg-white rounded-b-lg">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Color Guessing Game
+                Vite Clone
               </h2>
               <p className="text-base mb-[12px]">
-                The Color Guessing Game is a fun web game where players try to
-                guess the correct color from a few options. Each round shows a
-                color box, and you must click the matching color button. Ifx
-                you’re right, you score a point. If you’re wrong, your score
-                resets.
+                This is a static Vite app I cloned. It doesn’t have any backend
+                functionality, but the design is clean, simple, and visually
+                appealing. It’s a nice example of how good styling can make even
+                a basic site stand out.
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : React, Tailwind
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://color-code-lovat.vercel.app/"
+                  href="https://vite-project-delta-woad.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -455,7 +452,7 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Debs-D/colorCode.git"
+                  href="https://github.com/Debs-D/vite_project.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -465,30 +462,30 @@ function Body() {
               </div>
             </div>
           </article>
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxaeYkdPUzEGc8_3-HSqHYws3nRHEP_XiiQ&s"
+                src="https://mobilepackages.co/wp-content/uploads/2025/04/ufone.png"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
             </div>
             <div className="px-[18px] bg-white rounded-b-lg flex flex-col justify-between">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Jumia Clone
+                Ufone Website{" "}
               </h2>
               <p className="text-base mb-[12px]">
-                A responsive static page that features a dynamic and engaging
-                layout , the static website boasts a clean and modern e-commerce
-                design, meticulously crafted to provide an optimal user
-                experience.
+                Ufone is an online platform designed to empower students through
+                STEM education. The website offers a curated selection of
+                learning materials, interactive courses, and STEM kits available
+                for purchase, making learning hands-on and engaging.
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : HTML ,CSS
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://jumia-clone-sage.vercel.app/"
+                  href="https://ufuone-nyrx.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -496,7 +493,7 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Debs-D/jumiaClone.git"
+                  href="https://github.com/Debs-D/Ufone-Store.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -507,30 +504,30 @@ function Body() {
             </div>
           </article>
 
-          <article className="items-center bg-white shadow-xl rounded-b-lg">
+          <article className="items-center bg-white shadow-xl rounded-lg hover:scale-[1.02] transition-all duration-300">
             <div className="h-[240px] pb-[17px]">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxaeYkdPUzEGc8_3-HSqHYws3nRHEP_XiiQ&s"
+                src="https://static.thenounproject.com/png/909593-200.png"
                 alt="Image of website"
                 className="w-full h-full rounded-t-lg object-cover"
               />
             </div>
             <div className="px-[18px] bg-white rounded-b-lg flex flex-col justify-between">
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
-                Jumia Clone
+                Card Details
               </h2>
               <p className="text-base mb-[12px]">
-                A responsive static page that features a dynamic and engaging
-                layout , the static website boasts a clean and modern e-commerce
-                design, meticulously crafted to provide an optimal user
-                experience.
+                A static design of a card payment website that’s clean, visually
+                appealing, and represents a smooth, secure payment
+                experience.The website design ensures secure and seamless
+                transactions for a smooth payment experience
               </p>
               <p className="text-[#666666] text-sm mb-[21px]">
                 Tech stack : HTML ,CSS
               </p>
               <div className="flex justify-center gap-x-[48px] items-center mb-2">
                 <a
-                  href="https://jumia-clone-sage.vercel.app/"
+                  href="https://card-details-psi.vercel.app/"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -538,7 +535,7 @@ function Body() {
                   <CiLink />
                 </a>
                 <a
-                  href="https://github.com/Debs-D/jumiaClone.git"
+                  href="https://github.com/Debs-D/card-details.git"
                   target="_blank"
                   className="hover:text-blue-500 font-bold text-2xl"
                   rel="noopener noreferrer"
@@ -610,9 +607,9 @@ function Body() {
             <a href="#"></a>
           </div>
           <div className="text-sm">
-            &copy; copyright 2023 by{" "}
+            &copy; copyright 2024 by{" "}
             <span className="bg-gradient-to-r from-blue-500 to-red-300 bg-clip-text text-transparent">
-              omoola
+              Lolaa..
             </span>{" "}
             | all right reserved
           </div>

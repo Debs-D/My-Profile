@@ -188,7 +188,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Advice App
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 My advice-generating website offers personalized tips and
                 insights to guide users seeking motivation, clarity, or
                 direction effectively . With a simple click, users can receive
@@ -230,7 +230,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Movie Box
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 My interactive movie box website makes discovering and enjoying
                 films fun and easy.,I made use of an API to get almost all
                 movies and describe a little about each movie.I am looking
@@ -271,7 +271,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Ufone Store{" "}
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 Ufone is an online platform designed to empower students through
                 STEM education. The website offers a curated selection of
                 learning materials, interactive courses, and STEM kits available
@@ -312,7 +312,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Pig Game
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 The project design come from Jonas.io javascript course, I
                 implement the functionality of the project.It involve 2 users
                 ,where each user can roll a dice and add score to user scores.
@@ -352,7 +352,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Color Guessing Game
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 The Color Guessing Game is a fun web game where players try to
                 guess the correct color from a few options. Each round shows a
                 color box, and you must click the matching color button.
@@ -392,7 +392,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Jumia Clone
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 A responsive static page that features a dynamic and engaging
                 layout , the static website boasts a clean and modern e-commerce
                 design, meticulously crafted to provide an optimal user
@@ -433,7 +433,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Vite Clone
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 This is a static Vite app I cloned. It doesn’t have any backend
                 functionality, but the design is clean, simple, and visually
                 appealing. It’s a nice example of how good styling can make even
@@ -474,7 +474,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Ufone Website{" "}
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 Ufone is an online platform designed to empower students through
                 STEM education. The website offers a curated selection of
                 learning materials, interactive courses, and STEM kits available
@@ -516,7 +516,7 @@ function Body() {
               <h2 className="text-xl text-[#000000] font-bold mb-[17px]">
                 Card Details
               </h2>
-              <p className="text-base mb-[12px]">
+              <p className="text-sm mb-[21px] text-gray-600 dark:text-gray-600">
                 A static design of a card payment website that’s clean, visually
                 appealing, and represents a smooth, secure payment
                 experience.The website design ensures secure and seamless

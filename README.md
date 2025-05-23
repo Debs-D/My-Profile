@@ -1,8 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧑‍💻 My Portfolio
 
-Currently, two official plugins are available:
+My-Profile is a personal portfolio website where I showcase my web development projects, skills, and experiences. It serves as a central hub to highlight my growth as a frontend developer and includes static and dynamic projects I've worked on during my learning journey.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔧 Features
+Project Showcase: Displays a collection of my projects with brief descriptions and links.
+
+Clean Layout: Simple and responsive design for easy navigation across devices.
+
+About Section: Highlights who I am, what I do, and what I’m passionate about in tech.
+
+💡 Technologies Used
+HTML & CSS – For structure and styling.
+
+JavaScript & Next.js – For basic interactivity.
+
+
+
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  Yarn dev 
+```
+
+
+## Demo
+
+ link to demo
+
+https://my-profile-gray-ten.vercel.app/

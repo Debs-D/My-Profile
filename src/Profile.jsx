@@ -85,7 +85,7 @@ const PROJECTS = [
     stack: ["React", "TMDB API", "CSS"],
     live: "https://moviebox-blue.vercel.app/",
     github: "https://github.com/Debs-D/moviebox",
-    label: "Upgrading to Next.js",
+    label: "Personal",
   },
 ];
 

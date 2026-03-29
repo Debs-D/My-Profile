@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import PropTypes from "prop-types";
 
-// ─── DATA ────────────────────────────────────────────────────────────────────
 
 const NAV_LINKS = ["Home", "About", "Projects", "Contact"];
 
@@ -178,7 +177,6 @@ export default function Profile() {
     return () => window.removeEventListener("resize", fn);
   }, []);
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => { document.body.style.overflow = ""; };
@@ -222,7 +220,6 @@ export default function Profile() {
     }
   };
 
-  // ── Theme tokens ─────────────────────────────────────────────────────────────
   const C = {
     bg:       dark ? "#0d0d14" : "#f6f7fb",
     bg2:      dark ? "#111119" : "#eef0f8",
@@ -237,7 +234,6 @@ export default function Profile() {
     aBdr:     dark ? "rgba(124,58,237,0.32)" : "rgba(124,58,237,0.22)",
   };
 
-  // Shared inner-width container — full background, constrained content
   const inner = { width: "100%", maxWidth: 1100, margin: "0 auto", padding: "0 24px", boxSizing: "border-box" };
 
   const navBg = scrolled

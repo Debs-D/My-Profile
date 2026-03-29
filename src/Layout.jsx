@@ -1,11 +1,9 @@
-import Nav from "./Nav";
-import Body from "./Body";
+import Profile from "./Profile";
 
 function Layout() {
   return (
     <>
-      <Nav />
-      <Body />
+      <Profile />
     </>
   );
 }
